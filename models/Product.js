@@ -11,7 +11,8 @@ Product.init(
 {
     // define columns
   product_name: {
-    type: DataTypes.STRING
+    type: DataTypes.STRING,
+    allowNull: false,
   },
   id: {
     type: DataTypes.INTEGER,
@@ -20,18 +21,23 @@ Product.init(
     autoIncrement: true,
   },
   price: { 
-    type: DataTypes.DECIMAL,
+    type: DataTypes.DECIMAL(10,2),
     allowNull: false,
-    isDecimal: true,
+    validate: {
+      isDecimal: true,
+    }
   },
   stock: {
     type: DataTypes.INTEGER,
     allowNull: false,
     defaultValue: 10,
-    isNumeric: true,
+    validate: {
+      isNumeric: true,
+    }
   },
   category_id: {
     type: DataTypes.INTEGER,
+    allowNull: false,
     // References the category model's id
     references: {
       model: "category",
