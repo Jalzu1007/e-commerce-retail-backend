@@ -30,7 +30,7 @@ To install and run the application, follow these steps:
 - DB_PASSWORD=your_mysql_password
 5. Set up your MySQL database by executing the SQL commands provided in the seeds.sql file. This will create the necessary tables and populate them with sample data.
 6. Update the database connection configuration in the server.js file with your MySQL credentials.
-7. Seed the database by running the following command line: npm run seeds
+7. Seed the database by running the following command line: node seeds/index.js
 7. Start the application server by running the following command: npm start
 
 ## Usage
