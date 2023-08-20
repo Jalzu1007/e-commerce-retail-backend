@@ -68,7 +68,8 @@ Walkthrough Video:
 
 Watch the Walkthrough Video to see the functionality of the e-commerce back end in action. The video demonstrates the following:
 
-[![e-commerce-retail-backend](https://img.youtube.com/vi/7dnvO_T9bIc/0.jpg)](https://youtu.be/7dnvO_T9bIc)
+[![e-commerce-retail-backend](https://img.youtube.com/vi/o_I7zsEgVfA/0.jpg)](https://www.youtube.com/watch?v=o_I7zsEgVfA)
+
 
 - Creating the database schema from the MySQL shell.
 - Seeding the database with test data.
